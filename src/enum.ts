@@ -30,3 +30,13 @@ enum COLORS {
 
 let green = COLORS.GREEN;
 console.log({ green });
+
+//新たに追加する方法
+enum COLORS {
+  YELLOW = "#FFFF00",
+}
+
+let black = COLORS.BLACK;
+console.log({ black });
+
+console.log(COLORS);
