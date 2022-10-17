@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
+import Person from "./Person/Person";
 import "./App.css";
 
 class App extends Component {
@@ -12,6 +13,8 @@ class App extends Component {
           <p>
             <code>src/App.js</code>を編集したら保存する。
           </p>
+          <Person name="person" />
+          <Person name="PERSON" />
           <a
             className="App-link"
             href="https://reactjs.org"
